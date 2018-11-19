@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
 }
 
 
@@ -10,16 +11,24 @@ ul {
     overflow: hidden;
 }
 
-li {
-    float: left;
+footer {
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    color: rgba(0,0,0,.54);
+    position: absolute;
+    background: #f2f2f2;
+    width: 100%;
+    padding-left: 27px;
+    line-height: 40px;
 }
 
-li a {
+
+.top-links {
     display: block;
-    color: white;
     text-align: center;
-    padding: 25px 10px;
     text-decoration: none;
+    padding: 20px 0 0 0;
+    color: rgba(0,0,0,0.87);
 }
 
 .logo {
@@ -34,15 +43,26 @@ li a {
     text-align: center;
 }
 
-nav {
-    position: relative;
+.location {
+    font-size: 15px;
 }
 
-nav a {
-    color: black;
+.bottom-links {
+    border-top: 1px solid #e4e4e4;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    margin-right: 35px;
+    margin-left: -10px;
+}
+
+a {
+    color: rgba(0,0,0,0.87);
     opacity: .70;
     font-size: 13px;
     text-decoration: none;
+    padding: 12px;
 }
 
 nav li {
